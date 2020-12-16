@@ -14,7 +14,12 @@
     <string name="home">Home</string>
     <string name="search">search</string>
     <string name="play">Play</string>
-    <string name="bookmark">Bookmark</string>
+    <string name="mybooks">My books</string>
     <string name="settings">Settings</string>
     <string name="for_you">For you</string>
+    <string name="all">All</string>
+    <string name="books">Books</string>
+    <string name="authors">Authors</string>
+    <string name="the_little_prince">The Little Prince</string>
+    <string name="Woman_house">Woman\'s House</string>
 </resources>

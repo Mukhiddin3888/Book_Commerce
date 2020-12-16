@@ -9,20 +9,19 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener{
-
+public class SearchActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener{
     BottomNavigationView bottomNavigationView;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_search);
 
         bottomNavigationView = (BottomNavigationView) findViewById(R.id.buttom_nav);
 
         bottomNavigationView.setOnNavigationItemSelectedListener((BottomNavigationView.OnNavigationItemSelectedListener) this);
-    }
 
+
+    }
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
@@ -33,16 +32,14 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
                 startActivity(intent);
             };
-          return true;
+            return true;
             case (R.id.navb_search) :{
                 Intent intent=new Intent(getApplicationContext(), SearchActivity.class);
 
                 startActivity(intent);
             };
-           return true;
+            return true;
         }
         return false;
     }
-    
-
 }
