@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BookCommerse</string>
+    <string name="find_your_book">Find your book</string>
+    <string name="genres">Genres</string>
+    <string name="thriller">Thriller</string>
+    <string name="fantasy">Fantasy</string>
+    <string name="reading_now">Reading now</string>
+    <string name="antoine_de_saint_exupery">Antoine de Saint-Exupery</string>
+    <string name="little_prince">Little Prince</string>
+    <string name="romantic">Romantic</string>
+    <string name="mukhiddin">Mukhiddin</string>
+    <string name="hi">Hi,</string>
+    <string name="enrich_your_life_with_books">Enrich your life with books</string>
+    <string name="home">Home</string>
+    <string name="search">search</string>
+    <string name="play">Play</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="settings">Settings</string>
+</resources>
